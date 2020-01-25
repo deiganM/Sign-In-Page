@@ -1,0 +1,25 @@
+.hero-image {
+  height: 100vh;
+  width: 100vw;
+  background-image: url('../winterMountainLandscape.jpg');
+  background-position: center;
+  background-size: cover;
+  display: grid;
+}
+
+main {
+  /* display: grid; */
+}
+
+.card {
+  /* height: 5rem; */
+  width: 75vw;
+  background-color: rgba(250, 250, 210, .5);
+  display: grid;
+  margin: auto;
+}
+
+.owl-logo {
+  height: 5em;
+  width: 5em;
+}
