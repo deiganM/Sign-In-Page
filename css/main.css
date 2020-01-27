@@ -1,10 +1,13 @@
+
 @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 
-/****** FONT *****/
+/*********** FONT **********/
 
 body {
   font-family: 'Roboto', sans-serif;
 }
+
+/* background image */
 
 .hero-image {
   height: 100vh;
@@ -15,11 +18,7 @@ body {
   display: grid;
 }
 
-nav {
-  /* width: 100vw; */
-  /* height: 10vh;
-  background-color: lightgrey; */
-}
+/*********** TOP NAV BAR **********/
 
 nav ul {
   padding: 0;
@@ -28,14 +27,6 @@ nav ul {
   justify-content: space-evenly;
   align-items: center;
   background-color: rgba(215,217,215, .5);
-}
-}
-
-nav li {
-  /* margin-top: 1rem; */
-  /* align-self: auto; */
-  /* margin: auto; */
-  
 }
 
 nav a {
@@ -49,40 +40,7 @@ nav a:hover {
   transition: .1s;
 }
 
-
-
-/************************************** OLD ***********************************************/
-
-
-img {
-  display: block;
-}
-
-/*  Places the owl logo in relation to .card  */
-
-.card {
-  width: 75vw;
-  display: grid;
-  margin: auto;
-  /* border: 1px solid white; */
-  grid-template-columns: 1fr;
-  grid-template-rows: 2.7rem ;
-  
-}
-
-fieldset {
-  /* display: grid; */
-  /* height: 50vh; */
-  border: none;
-  background-color: rgba(250, 250, 210, .6);
-}
- 
-.grid {
-  margin: auto;
-  margin-top: 40px;
-  display: grid;
-  gap: .5rem;
-}
+/*********** FORM SECTION **********/
 
 .owl-logo {
   height: 5em;
@@ -91,9 +49,33 @@ fieldset {
   grid-row-end: 2;
 }
 
+fieldset {
+  border: none;
+  background-color: rgba(250, 250, 210, .6);
+}
+
 legend {
   margin: auto;
 }
+
+/*  Places the owl logo in relation to .card  */
+
+.card {
+  width: 75vw;
+  display: grid;
+  margin: auto;
+  grid-template-columns: 1fr;
+  grid-template-rows: 2.7rem ;
+}
+
+.grid {
+  margin: auto;
+  margin-top: 40px;
+  display: grid;
+  gap: .5rem;
+}
+
+/*********** FORM INPUT BUTTONS **********/
 
 .submit-button {
   /* color: lime; */

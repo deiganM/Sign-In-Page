@@ -32,9 +32,18 @@ a {
  * Remove the margin in all browsers.
  */
 
+
+/**
+ * My personal resets.
+ */
+
 body {
   margin: 0;
   padding: 0;
+}
+
+img {
+  display: block;
 }
 
 /**
