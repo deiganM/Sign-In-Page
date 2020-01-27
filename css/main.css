@@ -16,9 +16,9 @@ body {
 }
 
 nav {
-  width: 100vw;
-  height: 10vh;
-  background-color: lightgrey;
+  /* width: 100vw; */
+  /* height: 10vh;
+  background-color: lightgrey; */
 }
 
 nav ul {
@@ -26,21 +26,27 @@ nav ul {
   margin: 0;
   display: flex;
   justify-content: space-evenly;
+  align-items: center;
+  background-color: rgba(215,217,215, .5);
+}
 }
 
 nav li {
-  margin-top: 1rem;
+  /* margin-top: 1rem; */
+  /* align-self: auto; */
+  /* margin: auto; */
+  
 }
 
 nav a {
   padding: 1rem;
   color: black;
+  display: block;
 }
 
 nav a:hover {
-  
-  transform: .3s;
-  color: darkslategrey;
+  color: slategrey;
+  transition: .1s;
 }
 
 
@@ -51,6 +57,8 @@ nav a:hover {
 img {
   display: block;
 }
+
+/*  Places the owl logo in relation to .card  */
 
 .card {
   width: 75vw;
@@ -63,17 +71,17 @@ img {
 }
 
 fieldset {
-  display: grid;
-  
-  height: 50vh;
+  /* display: grid; */
+  /* height: 50vh; */
   border: none;
-  background-color: rgba(250, 250, 210, .5);
+  background-color: rgba(250, 250, 210, .6);
 }
  
 .grid {
   margin: auto;
   margin-top: 40px;
-  
+  display: grid;
+  gap: .5rem;
 }
 
 .owl-logo {
@@ -85,6 +93,65 @@ fieldset {
 
 legend {
   margin: auto;
+}
+
+.submit-button {
+  /* color: lime; */
+  border-radius: 10px;
+  border: 2px rgb(255, 189, 51) solid;
+  width: 25vw;
+  margin: 1rem auto;
+  cursor: pointer;
+}
+
+.submit-button:hover {
+  color: slategrey;
+  transition: .1s;
+}
+
+.sign-up {
+  border: 1px black solid;
+  background: whitesmoke;
+  color: black;
+  width: 25vw;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.sign-up:hover {
+  color: slategrey;
+  transition: .1s;
+}
+
+.grid p, .sign-up {
+  margin: auto;
+}
+
+/************************************** MEDIA QUERIES ***********************************************/
+
+@media (min-width: 600px) and (orientation: landscape) {
+
+  .card {
+    gap: 1rem;
+    grid-template-rows: 1.5rem;
+  }
+
+  #username, #password, label {
+    max-width: 60%;
+    margin: auto;
+  }
+
+  input::placeholder {
+    text-align: center;
+  }
+
+  .submit-button {
+    width: 20vw;
+  }
+
+  .sign-up {
+    width: 20vw;
+  }
 }
 
 
