@@ -45,22 +45,6 @@ nav a:hover {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /************************************** OLD ***********************************************/
 
 
@@ -74,15 +58,22 @@ img {
   margin: auto;
   /* border: 1px solid white; */
   grid-template-columns: 1fr;
-  grid-template-rows: 1.7rem ;
+  grid-template-rows: 2.7rem ;
+  
 }
 
 fieldset {
   display: grid;
-  justify-items: center;
+  
   height: 50vh;
   border: none;
   background-color: rgba(250, 250, 210, .5);
+}
+ 
+.grid {
+  margin: auto;
+  margin-top: 40px;
+  
 }
 
 .owl-logo {
@@ -90,6 +81,10 @@ fieldset {
   width: 5em;
   margin: auto;
   grid-row-end: 2;
+}
+
+legend {
+  margin: auto;
 }
 
 
