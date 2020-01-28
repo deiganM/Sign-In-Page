@@ -30,15 +30,15 @@
           <div class="grid"> 
             <legend>Create an account</legend>
               <label for="username">Choose a username:</label><br>
-              <input type="text" name="username" id="username" placeholder="Choose a username">
+              <input type="text" name="username" id="username" placeholder="Choose a username" minlength="1" required>
               <label for="email">Email:</label><br>
-              <input type="email" name="email" id="email" placeholder="Enter your email">
-              <label for="password">Password(Must be at least 6 characters and contain a number symbol. Ex. !@#$%&*):</label><br>
-              <input type="password" name="password" id="password" placeholder="Choose a password">
+              <input type="email" name="email" id="email" placeholder="Enter your email" required>
+              <label for="password">Password:</label><br>
+              <input type="password" name="password" id="password" placeholder="Choose a password" minlength="6" minlength="20" required>
               <label for="confirmPassword">Confirm password:</label><br>
-              <input type="password" name="confirmPassword" id="confirmPassword" placeholder="Confirm your password">
+              <input type="password" name="confirmPassword" id="confirmPassword" placeholder="Confirm your password" minlength="6" minlength="20" required>
               <label for="file">Please upload a profile pic</label>
-              <input type="file" name="file" id="file">
+              <input type="file" name="file" id="file" required>
               <input class="submit-button" type="submit" value="submit">
           </div>
         </fieldset>
