@@ -124,6 +124,10 @@ legend {
     grid-template-rows: repeat(7, auto);
   }
 
+  .card {
+    width: 80vw;
+  }
+
    legend {
     grid-column: 1 / 3;
   } 
@@ -167,6 +171,7 @@ legend {
   label[for="password"],
   #password {
     place-self: center;
+    text-align: center;
   }
 
   label[for="password"] {
@@ -218,6 +223,7 @@ legend {
   .submit-button {
     grid-column: 2 / 3;
     grid-row: 8 / 9;
+    margin: 0;
   }
 }
 
